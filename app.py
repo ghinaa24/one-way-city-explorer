@@ -39,9 +39,9 @@ st.info(
 BASE_DIR = Path(__file__).resolve().parent
 
 kemungkinan_file = [
-    BASE_DIR / "data" / "road_network_international.csv",
-    BASE_DIR / "data" / "road_network.csv.csv",
     BASE_DIR / "road_network.csv",
+    BASE_DIR / "data" / "road_network_international.csv",
+    BASE_DIR / "data" / "road_network.csv",
 ]
 
 CSV_PATH = next(
